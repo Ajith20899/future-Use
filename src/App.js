@@ -1,10 +1,10 @@
 import React from 'react';
-import { CodeFormat } from './codeformat/CodeFormat';
+import { Highlighted } from './codeformat/CodeFormat';
 
 function App() {
   return (
     <div className="App">
-      <CodeFormat />
+      <Highlighted />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { Hightlight } from './Hightlight';
+import { Hightlight } from './Highlight';
 
-export default function Highlighted() {
+export function Highlighted() {
 
     const [example, setExample] = useState('');
 
@@ -15,7 +15,7 @@ export default function Highlighted() {
                     value={example}
                 />
 
-                <Hightlight 
+                <Hightlight
                     example={example}
                 />
             </div>

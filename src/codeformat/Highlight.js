@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Highlight from 'react-highlight.js';
 
 export function Hightlight({example}) {
