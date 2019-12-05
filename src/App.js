@@ -1,12 +1,12 @@
 import React from 'react';
-import { Highlighted } from './codeformat/CodeFormat';
+import { ThumbNail } from './thumbnail';
 
 function App() {
   return (
     <div className="App">
-      <Highlighted />
+      <ThumbNail />
     </div>
   );
-}
+};
 
 export default App;
