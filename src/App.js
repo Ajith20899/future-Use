@@ -1,12 +1,12 @@
 import React from 'react';
-import { CodeFormat } from './codeformat/CodeFormat';
+import { ThumbNail } from './thumbnail';
 
 function App() {
   return (
     <div className="App">
-      <CodeFormat />
+      <ThumbNail />
     </div>
   );
-}
+};
 
 export default App;
